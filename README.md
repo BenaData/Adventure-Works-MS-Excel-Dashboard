@@ -22,4 +22,7 @@ The total revenue obtained from the sale of goods over the four years was $ 307.
 This project provided an excellent opportunity for me to learn various advanced Excel tools and formulae such as INDEX, LOOKUP, DAX, Power Pivot, Pivot Tables, IF, Dashboards, Macros, etc.
 
 
+![image](https://github.com/user-attachments/assets/07e8c529-67d7-45ce-a48d-970e006b0df8)
+![image](https://github.com/user-attachments/assets/cf3a479d-103d-49c2-b90d-19f5efc654af)
+
 
