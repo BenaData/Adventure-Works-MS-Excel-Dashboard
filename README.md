@@ -1,7 +1,7 @@
 # Adventure-Works-MS-Excel-Dashboard
 This project involved creating dashboards using the famous Adventure Works database. The preferred data visualization software was MS Excel. I followed the videos from @datalab365 to create the dashboards. The dataset represents a customer database that stores information about customers, goods, and transactions. The database was an Excel document with six tables: FactInternetSales, DimProduct, DimSalesTeritory, DimDate, DimCustomer, and DimGeography.
 The goal was to analyze the four-year data and create informative charts to track the business's performance. We analyzed profit to determine how the products and customers performed over time and in different geographical regions. The project involved importing data into a macro-enabled Excel document. Two dashboards were created, one for time series analysis and the other for detailed sales analysis.
-##Time Series analysis
+## Time Series analysis
 The total revenue obtained from the sale of goods over the four years was $ 307.09 million, with a total profit of $ 126.29 million (41.1% profit margin). 
 1) Revenue, Profit, and number of transactions all had an upward trajectory from 2005 to 2008.
 2) The second quarter had the highest profit, contributing 31% of the total earnings in the four years ($ 39.30) million.
