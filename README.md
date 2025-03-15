@@ -19,8 +19,7 @@ The total revenue obtained from the sale of goods over the four years was $ 307.
 6) Total profit by gender was almost equally distributed (50.4% female).
 7) People above 50 years old contributed to 39.4% of the profit.
 
-This proejct provided a great oportunity for me to learn various advanced excel tools and formulae such as INDEX, LOOKUP, DAX, Power Pivot, Pivot Tables, IF, Dashboards, Macros, etc. 
-
+This project provided an excellent opportunity for me to learn various advanced Excel tools and formulae such as INDEX, LOOKUP, DAX, Power Pivot, Pivot Tables, IF, Dashboards, Macros, etc.
 
 
 
