@@ -1,34 +1,138 @@
-# Adventure-Works-MS-Excel-Dashboard
-This project involved creating dashboards using the famous Adventure Works database. The preferred data visualization software was MS Excel.  The dataset represents a customer database that stores information about customers, goods, and transactions. The database was an Excel document with six tables: FactInternetSales, DimProduct, DimSalesTeritory, DimDate, DimCustomer, and DimGeography.
-The goal was to analyze the four-year data and create informative charts to track the business's performance. I analyzed profit to determine how the products and customers performed over time and in different geographical regions. The project involved importing data into a macro-enabled Excel document. Two dashboards were created, one for time series analysis and the other for detailed sales analysis.
-## Time Series analysis
+# 📊 Adventure Works MS-Excel Dashboard Project
 
-![image](https://github.com/user-attachments/assets/07e8c529-67d7-45ce-a48d-970e006b0df8)
+A data analysis project built on the Adventure Works database, featuring two interactive Excel dashboards that track business performance across revenue, profit, product lines, and customer demographics over a four-year period.
 
-The above picture shows the time series dashboard.
-The total revenue obtained from the sale of goods over the four years was $ 307.09 million, with a total profit of $ 126.29 million (41.1% profit margin). 
-1) Revenue, Profit, and number of transactions all had an upward trajectory from 2005 to 2008.
-2) The second quarter had the highest profit, contributing 31% of the total earnings in the four years ($ 39.30) million.
-3) The least profitable quarter in the four years was Q3, contributing to 19% of the total profits.
-4) Wednesday, Thursday, and Friday contributed 43.8% of the total profit in four years.
-5) The revenue was the highest in 2007 and 2008. Both had $ 102 million.
-6) The highest profit was made in 2007.
-7) 2008 had the highest number of transactions.
-## Detailed Sales Analysis
+---
 
-![image](https://github.com/user-attachments/assets/cf3a479d-103d-49c2-b90d-19f5efc654af)
+## 🗂️ Project Overview
 
-The above picture is the detailed sales dashboard
-1) The top 4 Products contributed to 20% of the total profit.
-2) There were 606 different products in the firm.
-3) Black products had the highest profits.
-4) Red, black, and silver products contributed 75% of the profit.
-5) The top five customers contributed to only 0.28% of the total profits.
-6) Total profit by gender was almost equally distributed (50.4% female).
-7) People above 50 years old contributed to 39.4% of the profit.
+| Detail | Info |
+|---|---|
+| **Tool** | Microsoft Excel (.xlsm) |
+| **Dataset** | Adventure Works Database |
+| **Analysis Period** | 2005 – 2008 |
+| **Dashboards** | 2 (Time Series + Sales Analysis) |
+| **Total Revenue Analysed** | $307.09 Million |
+| **Total Profit Analysed** | $126.29 Million (41.1% margin) |
 
-This project provided an excellent opportunity for me to learn various advanced Excel tools and formulae such as INDEX, LOOKUP, DAX, Power Pivot, Pivot Tables, IF, Dashboards, Macros, etc.
+---
+
+## 🎯 Objectives
+
+- Track revenue, profit, and transaction volumes across four years
+- Identify seasonal patterns and peak performance periods
+- Evaluate product performance by category and colour
+- Understand customer demographics and their contribution to profit
+- Deliver two interactive, business-ready Excel dashboards
+
+---
+
+## 🗃️ Dataset Structure
+
+The database was provided as an Excel workbook with six relational tables:
+
+| Table | Description |
+|---|---|
+| `FactInternetSales` | All transactional sales records |
+| `DimProduct` | Product catalogue (name, colour, category) |
+| `DimSalesTerritory` | Geographical sales regions |
+| `DimDate` | Calendar dimension for time-based analysis |
+| `DimCustomer` | Customer profiles and demographics |
+| `DimGeography` | Location data for customers and territories |
+
+---
+
+## 📈 Dashboard 1 — Time Series Analysis
+
+<img width="940" height="497" alt="image" src="https://github.com/user-attachments/assets/072002b8-64e1-40a6-9cbe-92c616235bec" />
 
 
+It tracks business performance trends over time across years, quarters, and days of the week.
 
+**Key Findings:**
 
+- 📌 Total revenue of **$307.09M** and profit of **$126.29M** (41.1% margin) over four years
+- 📌 Revenue, profit, and transactions all showed an **upward trajectory from 2005 to 2008**
+- 📌 **Q2 was the strongest quarter**, contributing 31% of total profit ($39.30M)
+- 📌 **Q3 was the weakest quarter**, contributing only 19% of total profit
+- 📌 **Wednesday–Friday** drove 43.8% of total profit — mid-to-late week is the prime selling window
+- 📌 **2007 delivered the highest profit** of any single year
+- 📌 **2007 and 2008 tied for highest revenue** at $102M each
+- 📌 **2008 had the most transactions**, indicating growing customer activity
+
+---
+
+## 🛍️ Dashboard 2 — Detailed Sales Analysis
+
+<img width="940" height="426" alt="image" src="https://github.com/user-attachments/assets/710c5a6d-c01e-4329-ada1-29bde8580754" />
+
+It drills into product and customer dimensions to reveal where profit is concentrated.
+
+**Key Findings:**
+
+- 📌 The **top 4 products** contributed 20% of total profit across 606 products
+- 📌 **Black products** were the highest-performing colour by profit
+- 📌 **Red, black, and silver** products combined contributed **75% of total profit**
+- 📌 The top 5 customers contributed just **0.28% of total profit** — revenue is broadly distributed
+- 📌 Profit by gender was nearly equal: **50.4% female, 49.6% male**
+- 📌 Customers **aged 50+** contributed **39.4% of total profit**
+
+---
+
+## 🛠️ Tools & Techniques
+
+```
+✅ Power Pivot        — Data modelling across six relational tables
+✅ DAX Formulas       — Custom KPIs and calculated measures
+✅ Pivot Tables       — Dynamic aggregation across multiple dimensions
+✅ Excel Macros (VBA) — Dashboard automation and interactivity
+✅ VLOOKUP / INDEX / MATCH — Cross-sheet data lookups
+✅ IF / IFS Functions — Conditional logic and category groupings
+✅ Charts & Slicers   — Interactive visualisations with filter controls
+✅ Conditional Formatting — Highlighting performance thresholds
+```
+
+---
+
+## 💡 Business Recommendations
+
+Based on the analysis:
+
+1. **Capitalise on Q2** — invest in spring marketing campaigns to maximise the strongest seasonal period.
+2. **Lift Q3 performance** — develop mid-year promotions to reduce seasonal revenue volatility.
+3. **Time campaigns mid-week** — schedule launches and promotions on Wednesday–Friday for peak engagement.
+4. **Focus on high-performing colours** — prioritise black, red, and silver product lines that drive 75% of profit.
+5. **Target the 50+ segment** — develop loyalty and upsell programmes for this high-value demographic.
+6. **Replicate top product traits** — analyse the top 4 products and apply those characteristics to new product development.
+---
+
+## 🚀 How to run the Dashboard from your computer
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/BenaData/Adventure-Works-MS-Excel-Dashboard.git
+   ```
+
+2. **Open the workbook**
+   - Open `Adventure Dashboard.xlsm` in Microsoft Excel (2016 or later recommended)
+   - **Enable macros** when prompted — they power the dashboard interactivity
+
+3. **Explore the dashboards**
+   - Navigate between the Time Series and Sales Analysis dashboards using the sheet tabs
+   - Use the slicers and filters to interact with the data
+
+> ⚠️ This file is macro-enabled (`.xlsm`). Make sure macros are enabled in your Excel Trust Center settings for full functionality.
+
+---
+
+## 👤 Author
+
+**Benard Mwinzi** — Data Analyst based in Nairobi, Kenya
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/benard-musyoka1234/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?logo=kaggle)](https://www.kaggle.com/benardmwinzi)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen)](https://www.datascienceportfol.io/Benard)
+
+---
+
+*Built with Microsoft Excel | Adventure Works Dataset*
